@@ -1,1 +1,0 @@
-document.querySelector(".col-xl-4 .content-left").classList.add(".kirekhar");
