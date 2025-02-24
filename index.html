@@ -22,7 +22,7 @@
       <ul class="nav nav-pills" id="top-buttons" style="gap: 10px;" >
         <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="./index.html" class="nav-link" aria-current="page" style="color: black;">Home</a></li>
         <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="./assets/Resume.pdf" class="nav-link" aria-current="page" style="color: black;">Resume</a></li>
-        <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="#" class="nav-link" aria-current="page" style="color: black;">Hobbies</a></li>
+        <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="#" class="nav-link" aria-current="page" style="color: black;" id="toWorkOn">Hobbies</a></li>
         <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="./contact.html" class="nav-link" aria-current="page" style="color: black;">Contact</a></li>
       </ul>
     </header>
@@ -99,7 +99,7 @@
           <div>
             <h3 class="fs-2 text-body-emphasis">Hobbies</h3>
             <p>Want a glimpse into what sparks my creativity outside of work? From the soulful tunes of my harmonica to the timeless charm of LP collections, explore the passions that shape me. Hit the button below and step into my world!</p>
-            <a href="#" class="btn btn-primary">
+            <a href="#" class="btn btn-primary" id="toWorkOn">
               Primary button
             </a>
           </div>
@@ -125,7 +125,18 @@
     </div>
 </section>
 
-    <script src="index.js" charset="UTF-8"></script>
+   
+<script charset="UTF-8">
+
+  
+  document.querySelectorAll("#toWorkOn").forEach(element => {
+      element.addEventListener("click", function(){
+          alert("This section to be created soon ;)");
+      });
+  });
+  </script>   
+
+
 </body>
 
 <div class=" container-xl  py-2 my-5 border-top atkinson-hyperlegible-regular">

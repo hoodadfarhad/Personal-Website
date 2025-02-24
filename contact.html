@@ -24,7 +24,7 @@
         <ul class="nav nav-pills" id="top-buttons" style="gap: 10px;" >
           <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="./index.html" class="nav-link" aria-current="page" style="color: black;">Home</a></li>
           <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="./resume.html" class="nav-link" aria-current="page" style="color: black;">Resume</a></li>
-          <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="#" class="nav-link" aria-current="page" style="color: black;">Hobbies</a></li>
+          <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="#" class="nav-link" aria-current="page" style="color: black;" id="toWorkOn">Hobbies</a></li>
           <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="./contact.html" class="nav-link" aria-current="page" style="color: black;">Contact</a></li>
         </ul>
       </header>
@@ -59,7 +59,15 @@
 
   </div>
 
-<script src="index.js" charset="UTF-8"></script>
+  <script charset="UTF-8">
+
+  
+    document.querySelectorAll("#toWorkOn").forEach(element => {
+        element.addEventListener("click", function(){
+            alert("This section to be created soon ;)");
+        });
+    });
+    </script>  
 
 </body>
 
