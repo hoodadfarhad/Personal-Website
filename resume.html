@@ -20,7 +20,7 @@
       <ul class="nav nav-pills" id="top-buttons" style="gap: 10px;" >
         <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="./index.html" class="nav-link" aria-current="page" style="color: black;">Home</a></li>
         <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="./resume.html" class="nav-link" aria-current="page" style="color: black;">Resume</a></li>
-        <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="#" class="nav-link" aria-current="page" style="color: black;">Hobbies</a></li>
+        <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="#" class="nav-link" aria-current="page" style="color: black;" id="toWorkOn">Hobbies</a></li>
         <li class="nav-item" style="background-color: #C78A63; border-radius: var(--bs-border-radius-pill) !important;"><a href="./contact.html" class="nav-link" aria-current="page" style="color: black;">Contact</a></li>
       </ul>
     </header>
@@ -28,6 +28,17 @@
 
 
     <iframe src="https://hoodadfarhad.github.io/Personal-Website/assets/Resume.pdf" width="100%" height="1500px"></iframe>
+
+
+    <script charset="UTF-8">
+
+  
+      document.querySelectorAll("#toWorkOn").forEach(element => {
+          element.addEventListener("click", function(){
+              alert("This section to be created soon ;)");
+          });
+      });
+      </script> 
 
 </body>
 </html>
