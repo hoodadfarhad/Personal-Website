@@ -82,6 +82,7 @@ height: 490px;
 
 
 .aboutme{
+    
     height: 240px;
     background-image: url(./assets/aboutme_bg.png);
 }
@@ -134,7 +135,10 @@ height: 490px;
 display: flex;
 justify-content: center;
 margin: 50px auto 20px auto;
+
 }
+
+
 
 .box-footer{
     display: flex;
@@ -198,12 +202,13 @@ margin-left: 15%;
     }
 
     .aboutme p{
-        width: 400px;
+        width: 350px;
     }
 
     
     
 }
+
 
 
 
@@ -238,3 +243,14 @@ margin-right: 7px;
 
 
 
+@media (max-width:400px) {
+    .aboutme{
+        text-align: center;
+    }
+    .contactUs{
+        text-align: center;
+    }
+    .hero{
+        
+    }
+}
