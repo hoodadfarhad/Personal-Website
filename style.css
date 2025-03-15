@@ -40,7 +40,12 @@ height: 490px;
     gap: 10px;
 }
 
-
+#top-buttons{
+    display: flex;
+  flex-wrap: nowrap; 
+  overflow-x: auto; 
+  white-space: nowrap;
+}
 
 
 
@@ -222,7 +227,12 @@ margin-left: 15%;
 
 
 
+#target {
 
+margin-top: 4px;
+margin-right: 7px;
+
+}
 
 
 
